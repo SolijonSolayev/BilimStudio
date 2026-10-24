@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx server.ts",
-    "build": "vite build",
+    "dev": "VITE_CONFIG_NATIVE_IGNORE_WARNING=true tsx server.ts",
+    "build": "VITE_CONFIG_NATIVE_IGNORE_WARNING=true vite build",
     "start": "node server.ts",
-    "preview": "vite preview",
+    "preview": "VITE_CONFIG_NATIVE_IGNORE_WARNING=true vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit"
   },
@@ -20,7 +20,7 @@
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
     "vite": "^8.3.0",
-    "express": "^4.21.2",
+    "express": "^21.2.2",
     "dotenv": "^17.2.3",
     "motion": "^12.23.24"
   },
