@@ -175,4 +175,3 @@ Bu loyiha Google Gemini API xizmatiga bog'liq bo'lib, API kalitining mavjudligi 
 
 ---
 
-Agar xohlasangiz, men bu README ni yanada yanada professional, startup uslubidagi versiyaga ham aylantiraman: hero section, logo, Screenshots, demo link, badges va deployment bo'limi bilan.
