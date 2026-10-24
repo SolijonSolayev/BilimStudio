@@ -1,0 +1,6 @@
+{
+  "name": "BilimStudio",
+  "description": "Uzun maqolalar, PDF darsliklar, ovozli ma'ruzalar va veb-havolalarni strukturali konspekt, flesh-kartochkalar, test savollari va AI ustoz muloqotiga aylantiruvchi aqlli ta'lim platformasi.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
